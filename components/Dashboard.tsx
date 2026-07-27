@@ -4,7 +4,7 @@ import { useCallback, useEffect, useMemo, useState } from "react";
 import { useRouter, useSearchParams } from "next/navigation";
 
 import type { RankedStock } from "@/lib/analysis";
-import { PERIODS, parsePeriod, type PeriodId } from "@/lib/analytics/periods";
+import { PERIODS, horizonFor, parsePeriod, type PeriodId } from "@/lib/analytics/periods";
 import { INDEXES, parseIndexId, type IndexId } from "@/lib/data/universe";
 import { relativeTime } from "@/lib/format";
 import { getWatchlist } from "@/lib/storage";
@@ -117,6 +117,8 @@ export function Dashboard() {
 
   return (
     <div className="space-y-4">
+      <HowItWorks period={period} />
+
       <div className="flex flex-wrap items-center justify-between gap-3">
         <div>
           <h1 className="text-lg font-semibold tracking-tight">Dashboard</h1>
@@ -221,6 +223,80 @@ export function Dashboard() {
           />
         </SectionCard>
       </div>
+    </div>
+  );
+}
+
+/**
+ * Spiegazione delle percentuali mostrate in pagina.
+ *
+ * `<details>` nativo: chiuso di default, apertura senza stato React e senza
+ * JavaScript. Su mobile occupa una riga sola finché non serve.
+ */
+function HowItWorks({ period }: { period: PeriodId }) {
+  const label = PERIODS[period].label.toLowerCase();
+  const days = horizonFor(period);
+
+  return (
+    <details className="card group px-3 py-2.5 sm:px-4 sm:py-3">
+      <summary className="flex cursor-pointer list-none items-center justify-between gap-2 text-sm font-semibold text-base-100 [&::-webkit-details-marker]:hidden">
+        Come funziona?
+        <span className="text-xs font-normal text-base-400 transition-transform group-open:rotate-180">
+          ▾
+        </span>
+      </summary>
+
+      <div className="mt-3 grid gap-3 text-xs leading-relaxed text-base-300 sm:grid-cols-2">
+        <Explainer title="Probabilità di salita" accent="text-rise-500">
+          Media di tre stime indipendenti sui prossimi {days} giorni di borsa (
+          {label}): frequenza storica delle finestre positive, modello GBM su
+          tendenza e volatilità correnti, regressione logistica su RSI, MACD,
+          medie mobili e momentum. Ogni stima pesa in proporzione a quanto ha
+          previsto bene <em>in passato su quel titolo</em> (Brier score misurato
+          fuori campione, walk-forward).
+        </Explainer>
+
+        <Explainer title="Compra / Vendi / Mantieni" accent="text-accent-400">
+          Le tre percentuali sommano sempre 100. Nascono da un confronto fra
+          vantaggio atteso (quanto la probabilità supera il 50%), rendimento per
+          unità di rischio, trend rispetto alle medie mobili, RSI ipervenduto o
+          ipercomprato, rischio di coda (CVaR 95%) e drawdown storico. Quando i
+          dati sono deboli «Mantieni» cresce e le tre percentuali si
+          appiattiscono: nessun consiglio netto senza basi.
+        </Explainer>
+
+        <Explainer title="Affidabilità (i pallini)" accent="text-base-100">
+          Quanto storico indipendente c&apos;è, quanto è stretto l&apos;intervallo
+          al 95% e quanto i tre modelli concordano. Pochi pallini = stima da
+          prendere con le pinze.
+        </Explainer>
+
+        <Explainer title="Da dove arrivano i dati" accent="text-base-100">
+          Chiusure giornaliere storiche: la finestra usata per stimare i
+          parametri è più lunga del periodo scelto, mentre la previsione resta
+          riferita ai prossimi {days} giorni. Sono stime statistiche sui prezzi
+          passati, non consigli finanziari.
+        </Explainer>
+      </div>
+    </details>
+  );
+}
+
+function Explainer({
+  title,
+  accent,
+  children,
+}: {
+  title: string;
+  accent: string;
+  children: React.ReactNode;
+}) {
+  return (
+    <div className="rounded-xl border border-base-800 bg-base-900/50 px-3 py-2.5">
+      <div className={`mb-1 text-[11px] font-semibold uppercase tracking-wide ${accent}`}>
+        {title}
+      </div>
+      <p>{children}</p>
     </div>
   );
 }
