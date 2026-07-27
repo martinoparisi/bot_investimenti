@@ -10,12 +10,16 @@ export const metadata: Metadata = {
     "Dashboard di analisi quantitativa su FTSE MIB, FTSE 100, NASDAQ 100 e S&P 500: probabilità di rialzo, segnali compra/vendi/mantieni e portafoglio personale.",
   icons: {
     icon: "/favicon.png",
+    apple: "/apple-touch-icon.png",
   },
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="it">
+      <head>
+        <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+      </head>
       <body className="min-h-screen" suppressHydrationWarning>
         <header className="sticky top-0 z-50 border-b border-base-800 bg-base-950/85 backdrop-blur-md">
           <div className="mx-auto flex max-w-[1600px] flex-wrap items-center gap-x-4 gap-y-2 px-3 py-2.5 sm:px-4 sm:py-3">
