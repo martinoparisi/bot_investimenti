@@ -8,6 +8,9 @@ export const metadata: Metadata = {
   title: "Analisi Mercati — probabilità di salita e discesa",
   description:
     "Dashboard di analisi quantitativa su FTSE MIB, FTSE 100, NASDAQ 100 e S&P 500: probabilità di rialzo, segnali compra/vendi/mantieni e portafoglio personale.",
+  icons: {
+    icon: "/favicon.png",
+  },
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
