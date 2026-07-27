@@ -3,6 +3,7 @@
 import { useCallback, useEffect, useState } from "react";
 
 import type { StockAnalysis } from "@/lib/analysis";
+import type { DetectedPattern, PatternId } from "@/lib/analytics/patterns";
 import { PERIODS, parsePeriod, type PeriodId } from "@/lib/analytics/periods";
 import type { OrderBook } from "@/lib/data/orderbook";
 import type { QuoteData } from "@/lib/data/yahoo";
@@ -107,7 +108,12 @@ export function StockDetail({ symbol }: { symbol: string }) {
       )}
 
       <div className="grid gap-4 xl:grid-cols-[minmax(0,2fr)_minmax(0,1fr)]">
-        <PriceChart symbol={symbol} period={period} currency={currency} />
+        <PriceChart
+          symbol={symbol}
+          period={period}
+          currency={currency}
+          pattern={analysis?.patterns[0]}
+        />
 
         {/* Probabilità */}
         <div className="card space-y-4 p-4">
@@ -212,6 +218,9 @@ export function StockDetail({ symbol }: { symbol: string }) {
           ) : null}
         </div>
       </div>
+
+      {/* Schemi grafici */}
+      {analysis && <PatternsCard patterns={analysis.patterns} currency={currency} />}
 
       {/* Dati sui prezzi + book */}
       <div className="grid gap-4 lg:grid-cols-[minmax(0,1.4fr)_minmax(0,1fr)]">
@@ -379,6 +388,12 @@ export function StockDetail({ symbol }: { symbol: string }) {
               hint="Volume di oggi rispetto alla media delle ultime 20 sedute"
             />
             <StatTile
+              label="Punteggio schemi"
+              value={formatNumber(analysis.stats.patternScore, 2)}
+              valueClassName={signClass(analysis.stats.patternScore)}
+              hint="Da -1 a +1: sintesi degli schemi grafici attivi, con peso che decade col passare delle sedute"
+            />
+            <StatTile
               label="Punteggio trend"
               value={formatNumber(analysis.stats.trend, 2)}
               valueClassName={signClass(analysis.stats.trend)}
@@ -428,6 +443,197 @@ export function StockDetail({ symbol }: { symbol: string }) {
               );
             })}
           </div>
+        </div>
+      )}
+    </div>
+  );
+}
+
+/**
+ * Figurina di ogni schema: la forma disegnata a mano in SVG, 48×24.
+ * Le rette tratteggiate sono le neckline o i livelli rotti.
+ */
+const PATTERN_GLYPH: Record<PatternId, React.ReactNode> = {
+  doubleTop: (
+    <>
+      <line x1="2" y1="13" x2="46" y2="13" strokeDasharray="3 3" opacity="0.5" />
+      <polyline points="2,20 8,6 14,13 20,6 26,13 34,19 46,21" />
+    </>
+  ),
+  doubleBottom: (
+    <>
+      <line x1="2" y1="11" x2="46" y2="11" strokeDasharray="3 3" opacity="0.5" />
+      <polyline points="2,4 8,18 14,11 20,18 26,11 34,5 46,3" />
+    </>
+  ),
+  headShoulders: (
+    <>
+      <line x1="2" y1="17" x2="46" y2="17" strokeDasharray="3 3" opacity="0.5" />
+      <polyline points="2,20 7,12 11,17 17,4 23,17 29,12 34,17 46,21" />
+    </>
+  ),
+  invHeadShoulders: (
+    <>
+      <line x1="2" y1="7" x2="46" y2="7" strokeDasharray="3 3" opacity="0.5" />
+      <polyline points="2,4 7,12 11,7 17,20 23,7 29,12 34,7 46,3" />
+    </>
+  ),
+  ascTriangle: (
+    <>
+      <line x1="3" y1="6" x2="45" y2="6" />
+      <line x1="3" y1="21" x2="45" y2="7" />
+    </>
+  ),
+  descTriangle: (
+    <>
+      <line x1="3" y1="18" x2="45" y2="18" />
+      <line x1="3" y1="3" x2="45" y2="17" />
+    </>
+  ),
+  symTriangle: (
+    <>
+      <line x1="3" y1="4" x2="45" y2="11" />
+      <line x1="3" y1="20" x2="45" y2="13" />
+    </>
+  ),
+  breakoutUp: (
+    <>
+      <line x1="2" y1="12" x2="46" y2="12" strokeDasharray="3 3" opacity="0.5" />
+      <polyline points="3,20 14,17 24,13 30,12 45,3" />
+    </>
+  ),
+  breakoutDown: (
+    <>
+      <line x1="2" y1="12" x2="46" y2="12" strokeDasharray="3 3" opacity="0.5" />
+      <polyline points="3,4 14,7 24,11 30,12 45,21" />
+    </>
+  ),
+  squeeze: (
+    <>
+      <line x1="3" y1="3" x2="45" y2="10" opacity="0.6" />
+      <line x1="3" y1="21" x2="45" y2="14" opacity="0.6" />
+      <polyline points="3,12 12,9 20,14 28,11 36,13 45,12" />
+    </>
+  ),
+};
+
+/** Il colore arriva da `currentColor`: lo imposta chi la usa, in base alla direzione. */
+function PatternGlyph({ id }: { id: PatternId }) {
+  return (
+    <svg
+      viewBox="0 0 48 24"
+      className="h-6 w-12 shrink-0"
+      fill="none"
+      stroke="currentColor"
+      strokeWidth={1.6}
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      aria-hidden
+    >
+      {PATTERN_GLYPH[id]}
+    </svg>
+  );
+}
+
+const DIRECTION_STYLE = {
+  bullish: {
+    label: "Rialzista",
+    className: "bg-rise-500/15 text-rise-500 border-rise-500/30",
+    glyph: "text-rise-500",
+    bar: "bg-rise-500",
+  },
+  bearish: {
+    label: "Ribassista",
+    className: "bg-fall-500/15 text-fall-500 border-fall-500/30",
+    glyph: "text-fall-500",
+    bar: "bg-fall-500",
+  },
+  neutral: {
+    label: "Neutro",
+    className: "bg-hold-500/15 text-hold-500 border-hold-500/30",
+    glyph: "text-hold-500",
+    bar: "bg-hold-500",
+  },
+} as const;
+
+/**
+ * Schemi rilevati sul grafico, dal più recente al più vecchio. Il primo della
+ * lista è anche quello disegnato sul grafico.
+ */
+function PatternsCard({
+  patterns,
+  currency,
+}: {
+  patterns: DetectedPattern[];
+  currency: string;
+}) {
+  return (
+    <div className="card p-4">
+      <h2 className="text-sm font-semibold">Schemi grafici rilevati</h2>
+      <p className="mb-3 mt-0.5 text-xs text-base-400">
+        Figure ancora in vigore sulle chiusure giornaliere, dalla più recente. Entrano nel calcolo
+        come feature del modello, con un peso imparato dai dati, non deciso a mano. La prima è
+        disegnata sul grafico.
+      </p>
+
+      {patterns.length === 0 ? (
+        <div className="rounded-xl border border-dashed border-base-700 px-4 py-6 text-center text-sm text-base-400">
+          Nessuno schema riconoscibile nelle ultime 60 sedute.
+        </div>
+      ) : (
+        <div className="space-y-2">
+          {patterns.map((p) => {
+            const style = DIRECTION_STYLE[p.direction];
+            return (
+              <div
+                key={p.id}
+                className="rounded-xl border border-base-800 bg-base-900/50 px-3 py-2.5"
+              >
+                <div className="flex flex-wrap items-center gap-x-2 gap-y-1">
+                  <span className={style.glyph}>
+                    <PatternGlyph id={p.id} />
+                  </span>
+                  <span className="text-sm font-semibold text-base-100">{p.label}</span>
+                  <span
+                    className={`inline-flex items-center rounded-md border px-1.5 py-0.5 text-[11px] font-semibold ${style.className}`}
+                  >
+                    {style.label}
+                  </span>
+                  <span className="ml-auto text-xs text-base-400">
+                    {p.ageBars === 0 ? "oggi" : `${p.ageBars} sedute fa`}
+                  </span>
+                </div>
+
+                <div className="mt-2 flex items-center gap-2">
+                  <span className="w-12 shrink-0 text-[11px] text-base-400">Forza</span>
+                  <div className="h-1.5 flex-1 overflow-hidden rounded-full bg-base-800">
+                    <div
+                      className={`h-full rounded-full ${style.bar}`}
+                      style={{ width: `${Math.round(p.strength * 100)}%` }}
+                    />
+                  </div>
+                  <span className="tabular w-10 text-right text-xs text-base-300">
+                    {Math.round(p.strength * 100)}%
+                  </span>
+                </div>
+
+                {p.levels.length > 0 && (
+                  <div className="mt-1.5 flex flex-wrap gap-x-4 gap-y-0.5 text-[11px] text-base-400">
+                    {p.levels.map((l) => (
+                      <span key={l.label}>
+                        {l.label}:{" "}
+                        <span className="tabular text-base-300">
+                          {formatPrice(l.price, currency)}
+                        </span>
+                      </span>
+                    ))}
+                  </div>
+                )}
+
+                <p className="mt-1.5 text-[11px] leading-relaxed text-base-400">{p.meaning}</p>
+              </div>
+            );
+          })}
         </div>
       )}
     </div>

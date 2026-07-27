@@ -18,6 +18,8 @@ export interface SignalInput {
   sigmaHorizon: number;
   /** Punteggio di trend in [-1,1]. */
   trend: number;
+  /** Sintesi degli schemi grafici attivi in [-1,1]. Assente = nessuno schema. */
+  patternScore?: number;
   /** RSI a 14 periodi, 0-100. `null` se non calcolabile. */
   rsi: number | null;
   /** Expected shortfall giornaliero al 95%, valore negativo. */
@@ -75,12 +77,19 @@ export function computeSignal(input: SignalInput): SignalResult {
   const tailRisk = clamp(Math.abs(input.cvar95) / 0.02, 0, 2);
   const drawdownRisk = clamp(Math.abs(input.maxDrawdown) / 0.5, 0, 1.5);
 
+  // Gli schemi grafici pesano già dentro `pUp` come feature della logistica; qui
+  // entrano una seconda volta, con peso deliberatamente più basso di `trend`,
+  // perché una rottura netta deve vedersi nel consiglio anche quando la
+  // probabilità si muove poco.
+  const pattern = clamp(input.patternScore ?? 0, -1, 1);
+
   const uBuy =
-    6 * edge + 0.8 * riskAdjusted + 1.0 * input.trend + 0.6 * oversold;
+    6 * edge + 0.8 * riskAdjusted + 1.0 * input.trend + 0.6 * oversold + 0.8 * pattern;
   const uSell =
     -6 * edge -
     0.8 * riskAdjusted -
-    1.0 * input.trend +
+    1.0 * input.trend -
+    0.8 * pattern +
     0.6 * overbought +
     0.5 * tailRisk +
     0.3 * drawdownRisk;

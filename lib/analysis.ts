@@ -12,6 +12,11 @@ import {
   rsi,
   sma,
 } from "./analytics/indicators";
+import {
+  detectPatterns,
+  patternAnalysis,
+  type DetectedPattern,
+} from "./analytics/patterns";
 import { horizonFor, PERIODS, type PeriodId } from "./analytics/periods";
 import { analyzeProbability, trendScore, type ProbabilityResult } from "./analytics/probability";
 import {
@@ -70,10 +75,14 @@ export interface StockAnalysis {
     fiftyTwoWeekLow: number | null;
     positionIn52w: number | null;
     trend: number;
+    /** Sintesi degli schemi grafici attivi, da -1 (ribassisti) a +1 (rialzisti). */
+    patternScore: number;
     /** Movimento atteso a 1 sigma sull'orizzonte, in percentuale. */
     expectedMovePercent: number;
     expectedReturnPercent: number;
   };
+  /** Schemi grafici ancora in vigore, dal più rilevante. */
+  patterns: DetectedPattern[];
   /** Rendimento medio per mese solare, in percentuale. */
   seasonality: { month: number; averageReturn: number; samples: number }[];
   /** Ultime chiusure, per i mini-grafici delle classifiche. */
@@ -146,7 +155,11 @@ export async function analyzeSymbol(
   const returns = logReturns(closes);
 
   const horizonDays = horizonFor(period);
-  const probability = analyzeProbability(closes, horizonDays);
+  // Gli schemi si calcolano una volta sola: servono sia come feature del modello
+  // sia come elenco da mostrare nella scheda titolo.
+  const shape = patternAnalysis(highs, lows, closes, volumes);
+  const patternScore = shape.pattern[shape.pattern.length - 1] ?? 0;
+  const probability = analyzeProbability(closes, horizonDays, shape);
 
   const rsiValue = last(rsi(closes, 14));
   const { histogram } = macd(closes);
@@ -192,6 +205,7 @@ export async function analyzeSymbol(
     expectedReturn: probability.expectedReturn,
     sigmaHorizon: probability.sigmaHorizon,
     trend,
+    patternScore,
     rsi: rsiValue,
     cvar95,
     maxDrawdown: dd.maxDrawdown,
@@ -235,9 +249,11 @@ export async function analyzeSymbol(
       fiftyTwoWeekLow: low52,
       positionIn52w: high52 > low52 ? ((price - low52) / (high52 - low52)) * 100 : null,
       trend,
+      patternScore,
       expectedMovePercent: probability.sigmaHorizon * 100,
       expectedReturnPercent: probability.expectedReturn * 100,
     },
+    patterns: detectPatterns(candles, shape),
     seasonality: seasonalityOf(candles),
     sparkline: closes.slice(-40),
     dataPoints: candles.length,

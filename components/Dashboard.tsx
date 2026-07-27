@@ -251,9 +251,19 @@ function HowItWorks({ period }: { period: PeriodId }) {
           Media di tre stime indipendenti sui prossimi {days} giorni di borsa (
           {label}): frequenza storica delle finestre positive, modello GBM su
           tendenza e volatilità correnti, regressione logistica su RSI, MACD,
-          medie mobili e momentum. Ogni stima pesa in proporzione a quanto ha
-          previsto bene <em>in passato su quel titolo</em> (Brier score misurato
-          fuori campione, walk-forward).
+          medie mobili, momentum e forma del grafico. Ogni stima pesa in
+          proporzione a quanto ha previsto bene <em>in passato su quel titolo</em>{" "}
+          (Brier score misurato fuori campione, walk-forward).
+        </Explainer>
+
+        <Explainer title="Schemi grafici" accent="text-accent-400">
+          La forma del grafico entra nel calcolo come numeri, non come impressione:
+          massimi e minimi crescenti o decrescenti, doppi massimi e minimi, testa e
+          spalle, triangoli, rotture di supporti e resistenze, distanza dal livello
+          più vicino. Un punto di svolta viene usato solo dalle sedute in cui era
+          davvero riconoscibile, mai da prima. Quanto contino lo decide la
+          validazione sui dati, non una regola scritta a mano; i singoli schemi
+          rilevati si vedono nella scheda del titolo.
         </Explainer>
 
         <Explainer title="Compra / Vendi / Mantieni" accent="text-accent-400">

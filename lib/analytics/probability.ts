@@ -20,6 +20,7 @@
  */
 
 import { bollinger, macd, momentum, rsi, sma } from "./indicators";
+import { patternAnalysis, type PatternAnalysis } from "./patterns";
 import {
   ewmaVolSeries,
   excessKurtosis,
@@ -170,12 +171,27 @@ export const FEATURE_NAMES = [
   "momentum20",
   "regimeVol",
   "range52w",
+  // Forma del grafico: la sequenza dei punti di svolta, non il singolo prezzo.
+  "structure",
+  "pattern",
+  "distResistance",
+  "distSupport",
+  "channelSlope",
+  "channelR2",
 ] as const;
 
 /** Indice minimo a cui tutte le feature sono definite (serve 1 anno di storia). */
 const MIN_FEATURE_INDEX = 252;
 
-export function buildFeatures(closes: number[]): (number[] | null)[] {
+/**
+ * `shape` arriva da `patternAnalysis`: si passa dall'esterno per non ricalcolarlo
+ * (l'analisi lo usa anche per la scheda titolo). Senza, si ricade sulle sole
+ * chiusure: le feature di forma degradano ma non rompono nulla.
+ */
+export function buildFeatures(
+  closes: number[],
+  shape: PatternAnalysis = patternAnalysis(closes, closes, closes),
+): (number[] | null)[] {
   const n = closes.length;
   const rsiSeries = rsi(closes, 14);
   const { histogram } = macd(closes);
@@ -206,6 +222,12 @@ export function buildFeatures(closes: number[]): (number[] | null)[] {
       mom20[i],
       vol > 0 && medianVol > 0 ? Math.log(vol / medianVol) : NaN,
       hi > lo ? (closes[i] - lo) / (hi - lo) - 0.5 : 0,
+      shape.structure[i],
+      shape.pattern[i],
+      shape.distResistance[i],
+      shape.distSupport[i],
+      shape.channelSlope[i],
+      shape.channelR2[i],
     ];
     out[i] = row.every(Number.isFinite) ? row : null;
   }
@@ -301,6 +323,7 @@ function shrunkDriftPrefix(prefixSums: number[], end: number): number {
 export function analyzeProbability(
   closes: number[],
   horizonDays: number,
+  shape?: PatternAnalysis,
 ): ProbabilityResult {
   const h = Math.max(1, Math.round(horizonDays));
   const n = closes.length;
@@ -318,7 +341,7 @@ export function analyzeProbability(
   const expectedReturn = Math.exp(driftDaily * h) - 1;
 
   // Indici con feature definite ed etichetta osservabile.
-  const features = buildFeatures(closes);
+  const features = buildFeatures(closes, shape);
   const labeled: number[] = [];
   for (let i = MIN_FEATURE_INDEX; i + h < n; i++) {
     if (features[i]) labeled.push(i);

@@ -2,7 +2,8 @@
 
 import { useEffect, useRef, useState } from "react";
 
-import type { PeriodId } from "@/lib/analytics/periods";
+import { PERIODS, type PeriodId } from "@/lib/analytics/periods";
+import type { DetectedPattern } from "@/lib/analytics/patterns";
 import type { Candle, ChartMeta } from "@/lib/data/yahoo";
 import { formatPercent, formatPrice, relativeTime, signClass } from "@/lib/format";
 
@@ -25,16 +26,25 @@ export function PriceChart({
   symbol,
   period,
   currency,
+  pattern,
 }: {
   symbol: string;
   period: PeriodId;
   currency: string;
+  /** Schema da disegnare: livelli come rette orizzontali, pivot come marker. */
+  pattern?: DetectedPattern;
 }) {
   const containerRef = useRef<HTMLDivElement>(null);
   // I riferimenti alle serie sopravvivono ai render: aggiorniamo i dati senza
   // ricreare il grafico, altrimenti a ogni polling perderemmo zoom e posizione.
   const chartRef = useRef<{ chart: unknown; price: unknown; volume: unknown } | null>(null);
   const typeRef = useRef<ChartType>("candele");
+  // Rette e marker vanno rimossi prima di ridisegnarli: il polling li
+  // accumulerebbe uno sopra l'altro a ogni giro.
+  const overlayRef = useRef<{ lines: unknown[]; markers: { setMarkers: (m: never[]) => void } | null }>({
+    lines: [],
+    markers: null,
+  });
 
   const [type, setType] = useState<ChartType>("candele");
   const [payload, setPayload] = useState<ChartPayload | null>(null);
@@ -124,6 +134,7 @@ export function PriceChart({
       cleanup = () => {
         chart.remove();
         chartRef.current = null;
+        overlayRef.current = { lines: [], markers: null };
       };
     })();
 
@@ -165,6 +176,64 @@ export function PriceChart({
       })),
     );
   }, [payload, type]);
+
+  // ---- schema grafico: livelli e punti di svolta ----
+  useEffect(() => {
+    const refs = chartRef.current;
+    if (!refs || !payload) return;
+    let cancelled = false;
+
+    const series = refs.price as {
+      createPriceLine: (o: Record<string, unknown>) => unknown;
+      removePriceLine: (line: unknown) => void;
+    };
+
+    // Pulizia di quanto disegnato al giro precedente.
+    for (const line of overlayRef.current.lines) series.removePriceLine(line);
+    overlayRef.current.lines = [];
+    overlayRef.current.markers?.setMarkers([]);
+
+    if (!pattern) return;
+
+    const color = pattern.direction === "bearish" ? "#ea3943" : pattern.direction === "bullish" ? "#16c784" : "#f0b90b";
+    overlayRef.current.lines = pattern.levels
+      .filter((l) => Number.isFinite(l.price))
+      .map((l) =>
+        series.createPriceLine({
+          price: l.price,
+          color,
+          lineWidth: 1,
+          lineStyle: 2, // tratteggiata
+          axisLabelVisible: true,
+          title: l.label,
+        }),
+      );
+
+    // I pivot sono su barre giornaliere: su intervalli intraday o settimanali i
+    // loro istanti non esistono nella serie del grafico e i marker sparirebbero
+    // o finirebbero nel posto sbagliato.
+    if (PERIODS[period].chartInterval !== "1d" || pattern.pivots.length === 0) return;
+
+    void (async () => {
+      const lib = await import("lightweight-charts");
+      if (cancelled || chartRef.current !== refs) return;
+      const markers = pattern.pivots.map((p) => ({
+        time: p.time,
+        position: p.kind === "high" ? "aboveBar" : "belowBar",
+        color,
+        shape: p.kind === "high" ? "arrowDown" : "arrowUp",
+        size: 1,
+      }));
+      overlayRef.current.markers = lib.createSeriesMarkers(
+        refs.price as Parameters<typeof lib.createSeriesMarkers>[0],
+        markers as Parameters<typeof lib.createSeriesMarkers>[1],
+      );
+    })();
+
+    return () => {
+      cancelled = true;
+    };
+  }, [pattern, payload, period, type]);
 
   const meta = payload?.meta;
   const changePercent =
