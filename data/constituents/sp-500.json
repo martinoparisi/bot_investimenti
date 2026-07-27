@@ -1,0 +1,3020 @@
+[
+  {
+    "symbol": "A",
+    "name": "Agilent Technologies",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "AAPL",
+    "name": "Apple Inc.",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "ABBV",
+    "name": "AbbVie",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "ABNB",
+    "name": "Airbnb",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "ABT",
+    "name": "Abbott Laboratories",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "ACGL",
+    "name": "Arch Capital Group",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "ACN",
+    "name": "Accenture",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "ADBE",
+    "name": "Adobe Inc.",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "ADI",
+    "name": "Analog Devices",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "ADM",
+    "name": "Archer Daniels Midland",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "ADP",
+    "name": "Automatic Data Processing",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "ADSK",
+    "name": "Autodesk",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "AEE",
+    "name": "Ameren",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "AEP",
+    "name": "American Electric Power",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "AES",
+    "name": "AES Corporation",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "AFL",
+    "name": "Aflac",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "AIG",
+    "name": "American International Group",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "AIZ",
+    "name": "Assurant",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "AJG",
+    "name": "Arthur J. Gallagher & Co.",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "AKAM",
+    "name": "Akamai Technologies",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "ALB",
+    "name": "Albemarle Corporation",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "ALGN",
+    "name": "Align Technology",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "ALL",
+    "name": "Allstate",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "ALLE",
+    "name": "Allegion",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "AMAT",
+    "name": "Applied Materials",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "AMCR",
+    "name": "Amcor",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "AMD",
+    "name": "Advanced Micro Devices",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "AME",
+    "name": "Ametek",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "AMGN",
+    "name": "Amgen",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "AMP",
+    "name": "Ameriprise Financial",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "AMT",
+    "name": "American Tower",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "AMZN",
+    "name": "Amazon",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "ANET",
+    "name": "Arista Networks",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "AON",
+    "name": "Aon plc",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "AOS",
+    "name": "A. O. Smith",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "APA",
+    "name": "APA Corporation",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "APD",
+    "name": "Air Products",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "APH",
+    "name": "Amphenol",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "APO",
+    "name": "Apollo Global Management",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "APP",
+    "name": "AppLovin",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "APTV",
+    "name": "Aptiv",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "ARE",
+    "name": "Alexandria Real Estate Equities",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "ARES",
+    "name": "Ares Management",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "ATO",
+    "name": "Atmos Energy",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "AVB",
+    "name": "AvalonBay Communities",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "AVGO",
+    "name": "Broadcom",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "AVY",
+    "name": "Avery Dennison",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "AWK",
+    "name": "American Water Works",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "AXON",
+    "name": "Axon Enterprise",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "AXP",
+    "name": "American Express",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "AZO",
+    "name": "AutoZone",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "BA",
+    "name": "Boeing",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "BAC",
+    "name": "Bank of America",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "BALL",
+    "name": "Ball Corporation",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "BAX",
+    "name": "Baxter International",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "BBY",
+    "name": "Best Buy",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "BDX",
+    "name": "Becton Dickinson",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "BEN",
+    "name": "Franklin Resources",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "BF-B",
+    "name": "Brown–Forman",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "BG",
+    "name": "Bunge Global",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "BIIB",
+    "name": "Biogen",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "BKNG",
+    "name": "Booking Holdings",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "BKR",
+    "name": "Baker Hughes",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "BLDR",
+    "name": "Builders FirstSource",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "BLK",
+    "name": "BlackRock",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "BMY",
+    "name": "Bristol Myers Squibb",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "BNY",
+    "name": "BNY Mellon",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "BR",
+    "name": "Broadridge Financial Solutions",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "BRK-B",
+    "name": "Berkshire Hathaway",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "BRO",
+    "name": "Brown & Brown",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "BSX",
+    "name": "Boston Scientific",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "BX",
+    "name": "Blackstone Inc.",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "BXP",
+    "name": "BXP, Inc.",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "C",
+    "name": "Citigroup",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "CAH",
+    "name": "Cardinal Health",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "CARR",
+    "name": "Carrier Global",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "CASY",
+    "name": "Casey's",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "CAT",
+    "name": "Caterpillar Inc.",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "CB",
+    "name": "Chubb Limited",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "CBOE",
+    "name": "Cboe Global Markets",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "CBRE",
+    "name": "CBRE Group",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "CCI",
+    "name": "Crown Castle",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "CCL",
+    "name": "Carnival Corporation",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "CDNS",
+    "name": "Cadence Design Systems",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "CDW",
+    "name": "CDW Corporation",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "CEG",
+    "name": "Constellation Energy",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "CF",
+    "name": "CF Industries",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "CFG",
+    "name": "Citizens Financial Group",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "CHD",
+    "name": "Church & Dwight",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "CHRW",
+    "name": "C.H. Robinson",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "CHTR",
+    "name": "Charter Communications",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "CI",
+    "name": "Cigna",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "CIEN",
+    "name": "Ciena",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "CINF",
+    "name": "Cincinnati Financial",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "CL",
+    "name": "Colgate-Palmolive",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "CLX",
+    "name": "Clorox",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "CMCSA",
+    "name": "Comcast",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "CME",
+    "name": "CME Group",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "CMG",
+    "name": "Chipotle Mexican Grill",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "CMI",
+    "name": "Cummins",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "CMS",
+    "name": "CMS Energy",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "CNC",
+    "name": "Centene Corporation",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "CNP",
+    "name": "CenterPoint Energy",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "COF",
+    "name": "Capital One",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "COHR",
+    "name": "Coherent Corp.",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "COIN",
+    "name": "Coinbase",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "COO",
+    "name": "Cooper Companies (The)",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "COP",
+    "name": "ConocoPhillips",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "COR",
+    "name": "Cencora",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "COST",
+    "name": "Costco",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "CPAY",
+    "name": "Corpay",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "CPRT",
+    "name": "Copart",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "CPT",
+    "name": "Camden Property Trust",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "CRH",
+    "name": "CRH plc",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "CRL",
+    "name": "Charles River Laboratories",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "CRM",
+    "name": "Salesforce",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "CRWD",
+    "name": "CrowdStrike",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "CSCO",
+    "name": "Cisco",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "CSGP",
+    "name": "CoStar Group",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "CSX",
+    "name": "CSX Corporation",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "CTAS",
+    "name": "Cintas",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "CTSH",
+    "name": "Cognizant",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "CTVA",
+    "name": "Corteva",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "CVNA",
+    "name": "Carvana",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "CVS",
+    "name": "CVS Health",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "CVX",
+    "name": "Chevron Corporation",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "D",
+    "name": "Dominion Energy",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "DAL",
+    "name": "Delta Air Lines",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "DASH",
+    "name": "DoorDash",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "DD",
+    "name": "DuPont",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "DDOG",
+    "name": "Datadog",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "DE",
+    "name": "Deere & Company",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "DECK",
+    "name": "Deckers Brands",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "DELL",
+    "name": "Dell Technologies",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "DG",
+    "name": "Dollar General",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "DGX",
+    "name": "Quest Diagnostics",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "DHI",
+    "name": "D. R. Horton",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "DHR",
+    "name": "Danaher Corporation",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "DIS",
+    "name": "Walt Disney Company (The)",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "DLR",
+    "name": "Digital Realty",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "DLTR",
+    "name": "Dollar Tree",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "DOC",
+    "name": "Healthpeak Properties",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "DOV",
+    "name": "Dover Corporation",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "DOW",
+    "name": "Dow Inc.",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "DPZ",
+    "name": "Domino's",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "DRI",
+    "name": "Darden Restaurants",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "DTE",
+    "name": "DTE Energy",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "DUK",
+    "name": "Duke Energy",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "DVA",
+    "name": "DaVita",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "DVN",
+    "name": "Devon Energy",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "DXCM",
+    "name": "Dexcom",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "EA",
+    "name": "Electronic Arts",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "EBAY",
+    "name": "eBay Inc.",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "ECHO",
+    "name": "EchoStar",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "ECL",
+    "name": "Ecolab",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "ED",
+    "name": "Consolidated Edison",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "EFX",
+    "name": "Equifax",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "EG",
+    "name": "Everest Group",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "EIX",
+    "name": "Edison International",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "EL",
+    "name": "Estée Lauder Companies (The)",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "ELV",
+    "name": "Elevance Health",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "EME",
+    "name": "Emcor",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "EMR",
+    "name": "Emerson Electric",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "EOG",
+    "name": "EOG Resources",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "EQIX",
+    "name": "Equinix",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "EQR",
+    "name": "Equity Residential",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "EQT",
+    "name": "EQT Corporation",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "ERIE",
+    "name": "Erie Indemnity",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "ES",
+    "name": "Eversource Energy",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "ESS",
+    "name": "Essex Property Trust",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "ETN",
+    "name": "Eaton Corporation",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "ETR",
+    "name": "Entergy",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "EVRG",
+    "name": "Evergy",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "EW",
+    "name": "Edwards Lifesciences",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "EXC",
+    "name": "Exelon",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "EXE",
+    "name": "Expand Energy",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "EXPD",
+    "name": "Expeditors International",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "EXPE",
+    "name": "Expedia Group",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "EXR",
+    "name": "Extra Space Storage",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "F",
+    "name": "Ford Motor Company",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "FANG",
+    "name": "Diamondback Energy",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "FAST",
+    "name": "Fastenal",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "FCX",
+    "name": "Freeport-McMoRan",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "FDS",
+    "name": "FactSet",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "FDX",
+    "name": "FedEx",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "FDXF",
+    "name": "FedEx Freight",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "FE",
+    "name": "FirstEnergy",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "FFIV",
+    "name": "F5, Inc.",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "FICO",
+    "name": "Fair Isaac",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "FIS",
+    "name": "Fidelity National Information Services",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "FISV",
+    "name": "Fiserv",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "FITB",
+    "name": "Fifth Third Bancorp",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "FIX",
+    "name": "Comfort Systems USA",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "FLEX",
+    "name": "Flex Ltd.",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "FOX",
+    "name": "Fox Corporation (Class B)",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "FOXA",
+    "name": "Fox Corporation (Class A)",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "FRT",
+    "name": "Federal Realty Investment Trust",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "FSLR",
+    "name": "First Solar",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "FTNT",
+    "name": "Fortinet",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "FTV",
+    "name": "Fortive",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "GD",
+    "name": "General Dynamics",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "GDDY",
+    "name": "GoDaddy",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "GE",
+    "name": "GE Aerospace",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "GEHC",
+    "name": "GE HealthCare",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "GEN",
+    "name": "Gen Digital",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "GEV",
+    "name": "GE Vernova",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "GILD",
+    "name": "Gilead Sciences",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "GIS",
+    "name": "General Mills",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "GL",
+    "name": "Globe Life",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "GLW",
+    "name": "Corning Inc.",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "GM",
+    "name": "General Motors",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "GNRC",
+    "name": "Generac",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "GOOG",
+    "name": "Alphabet Inc. (Class C)",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "GOOGL",
+    "name": "Alphabet Inc. (Class A)",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "GPC",
+    "name": "Genuine Parts Company",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "GPN",
+    "name": "Global Payments",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "GRMN",
+    "name": "Garmin",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "GS",
+    "name": "Goldman Sachs",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "GWW",
+    "name": "W. W. Grainger",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "HAL",
+    "name": "Halliburton",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "HAS",
+    "name": "Hasbro",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "HBAN",
+    "name": "Huntington Bancshares",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "HCA",
+    "name": "HCA Healthcare",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "HD",
+    "name": "Home Depot (The)",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "HIG",
+    "name": "Hartford (The)",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "HII",
+    "name": "Huntington Ingalls Industries",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "HLT",
+    "name": "Hilton Worldwide",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "HON",
+    "name": "Honeywell Technologies",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "HONA",
+    "name": "Honeywell Aerospace",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "HOOD",
+    "name": "Robinhood Markets",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "HPE",
+    "name": "Hewlett Packard Enterprise",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "HPQ",
+    "name": "HP Inc.",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "HRL",
+    "name": "Hormel Foods",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "HSIC",
+    "name": "Henry Schein",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "HST",
+    "name": "Host Hotels & Resorts",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "HSY",
+    "name": "Hershey Company (The)",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "HUBB",
+    "name": "Hubbell Incorporated",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "HUM",
+    "name": "Humana",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "HWM",
+    "name": "Howmet Aerospace",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "IBKR",
+    "name": "Interactive Brokers",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "IBM",
+    "name": "IBM",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "ICE",
+    "name": "Intercontinental Exchange",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "IDXX",
+    "name": "Idexx Laboratories",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "IEX",
+    "name": "IDEX Corporation",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "IFF",
+    "name": "International Flavors & Fragrances",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "INCY",
+    "name": "Incyte",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "INTC",
+    "name": "Intel",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "INTU",
+    "name": "Intuit",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "INVH",
+    "name": "Invitation Homes",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "IP",
+    "name": "International Paper",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "IQV",
+    "name": "IQVIA",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "IR",
+    "name": "Ingersoll Rand",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "IRM",
+    "name": "Iron Mountain",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "ISRG",
+    "name": "Intuitive Surgical",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "IT",
+    "name": "Gartner",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "ITW",
+    "name": "Illinois Tool Works",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "IVZ",
+    "name": "Invesco",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "J",
+    "name": "Jacobs Solutions",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "JBHT",
+    "name": "J.B. Hunt",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "JBL",
+    "name": "Jabil",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "JCI",
+    "name": "Johnson Controls",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "JKHY",
+    "name": "Jack Henry & Associates",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "JNJ",
+    "name": "Johnson & Johnson",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "JPM",
+    "name": "JPMorgan Chase",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "KDP",
+    "name": "Keurig Dr Pepper",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "KEY",
+    "name": "KeyCorp",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "KEYS",
+    "name": "Keysight Technologies",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "KHC",
+    "name": "Kraft Heinz",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "KIM",
+    "name": "Kimco Realty",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "KKR",
+    "name": "KKR & Co.",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "KLAC",
+    "name": "KLA Corporation",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "KMB",
+    "name": "Kimberly-Clark",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "KMI",
+    "name": "Kinder Morgan",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "KO",
+    "name": "Coca-Cola Company (The)",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "KR",
+    "name": "Kroger",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "KVUE",
+    "name": "Kenvue",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "L",
+    "name": "Loews Corporation",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "LDOS",
+    "name": "Leidos",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "LEN",
+    "name": "Lennar",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "LH",
+    "name": "Labcorp",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "LHX",
+    "name": "L3Harris",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "LII",
+    "name": "Lennox International",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "LIN",
+    "name": "Linde plc",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "LITE",
+    "name": "Lumentum",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "LLY",
+    "name": "Lilly (Eli)",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "LMT",
+    "name": "Lockheed Martin",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "LNT",
+    "name": "Alliant Energy",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "LOW",
+    "name": "Lowe's",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "LRCX",
+    "name": "Lam Research",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "LULU",
+    "name": "Lululemon Athletica",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "LUV",
+    "name": "Southwest Airlines",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "LVS",
+    "name": "Las Vegas Sands",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "LYB",
+    "name": "LyondellBasell",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "LYV",
+    "name": "Live Nation Entertainment",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "MA",
+    "name": "Mastercard",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "MAA",
+    "name": "Mid-America Apartment Communities",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "MAR",
+    "name": "Marriott International",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "MAS",
+    "name": "Masco",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "MCD",
+    "name": "McDonald's",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "MCHP",
+    "name": "Microchip Technology",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "MCK",
+    "name": "McKesson Corporation",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "MCO",
+    "name": "Moody's Corporation",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "MDLZ",
+    "name": "Mondelez International",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "MDT",
+    "name": "Medtronic",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "MET",
+    "name": "MetLife",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "META",
+    "name": "Meta Platforms",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "MGM",
+    "name": "MGM Resorts",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "MKC",
+    "name": "McCormick & Company",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "MLM",
+    "name": "Martin Marietta Materials",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "MMM",
+    "name": "3M",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "MNST",
+    "name": "Monster Beverage",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "MO",
+    "name": "Altria",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "MOS",
+    "name": "Mosaic Company (The)",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "MPC",
+    "name": "Marathon Petroleum",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "MPWR",
+    "name": "Monolithic Power Systems",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "MRK",
+    "name": "Merck & Co.",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "MRNA",
+    "name": "Moderna",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "MRSH",
+    "name": "Marsh McLennan",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "MRVL",
+    "name": "Marvell Technology",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "MS",
+    "name": "Morgan Stanley",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "MSCI",
+    "name": "MSCI Inc.",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "MSFT",
+    "name": "Microsoft",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "MSI",
+    "name": "Motorola Solutions",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "MTB",
+    "name": "M&T Bank",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "MTD",
+    "name": "Mettler Toledo",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "MU",
+    "name": "Micron Technology",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "NCLH",
+    "name": "Norwegian Cruise Line Holdings",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "NDAQ",
+    "name": "Nasdaq, Inc.",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "NDSN",
+    "name": "Nordson Corporation",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "NEE",
+    "name": "NextEra Energy",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "NEM",
+    "name": "Newmont",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "NFLX",
+    "name": "Netflix",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "NI",
+    "name": "NiSource",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "NKE",
+    "name": "Nike, Inc.",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "NOC",
+    "name": "Northrop Grumman",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "NOW",
+    "name": "ServiceNow",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "NRG",
+    "name": "NRG Energy",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "NSC",
+    "name": "Norfolk Southern",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "NTAP",
+    "name": "NetApp",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "NTRS",
+    "name": "Northern Trust",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "NUE",
+    "name": "Nucor",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "NVDA",
+    "name": "Nvidia",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "NVR",
+    "name": "NVR, Inc.",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "NWS",
+    "name": "News Corp (Class B)",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "NWSA",
+    "name": "News Corp (Class A)",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "NXPI",
+    "name": "NXP Semiconductors",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "O",
+    "name": "Realty Income",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "ODFL",
+    "name": "Old Dominion",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "OKE",
+    "name": "Oneok",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "OMC",
+    "name": "Omnicom Group",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "ON",
+    "name": "ON Semiconductor",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "ORCL",
+    "name": "Oracle Corporation",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "ORLY",
+    "name": "O’Reilly Automotive",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "OTIS",
+    "name": "Otis Worldwide",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "OXY",
+    "name": "Occidental Petroleum",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "PANW",
+    "name": "Palo Alto Networks",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "PAYX",
+    "name": "Paychex",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "PCAR",
+    "name": "Paccar",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "PCG",
+    "name": "PG&E Corporation",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "PEG",
+    "name": "Public Service Enterprise Group",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "PEP",
+    "name": "PepsiCo",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "PFE",
+    "name": "Pfizer",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "PFG",
+    "name": "Principal Financial Group",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "PG",
+    "name": "Procter & Gamble",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "PGR",
+    "name": "Progressive Corporation",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "PH",
+    "name": "Parker Hannifin",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "PHM",
+    "name": "PulteGroup",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "PKG",
+    "name": "Packaging Corporation of America",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "PLD",
+    "name": "Prologis",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "PLTR",
+    "name": "Palantir Technologies",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "PM",
+    "name": "Philip Morris International",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "PNC",
+    "name": "PNC Financial Services",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "PNR",
+    "name": "Pentair",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "PNW",
+    "name": "Pinnacle West Capital",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "PODD",
+    "name": "Insulet Corporation",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "PPG",
+    "name": "PPG Industries",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "PPL",
+    "name": "PPL Corporation",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "PRU",
+    "name": "Prudential Financial",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "PSA",
+    "name": "Public Storage",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "PSKY",
+    "name": "Paramount Skydance Corporation",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "PSX",
+    "name": "Phillips 66",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "PTC",
+    "name": "PTC Inc.",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "PWR",
+    "name": "Quanta Services",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "PYPL",
+    "name": "PayPal",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "Q",
+    "name": "Qnity Electronics",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "QCOM",
+    "name": "Qualcomm",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "RCL",
+    "name": "Royal Caribbean Group",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "REG",
+    "name": "Regency Centers",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "REGN",
+    "name": "Regeneron Pharmaceuticals",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "RF",
+    "name": "Regions Financial Corporation",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "RJF",
+    "name": "Raymond James Financial",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "RL",
+    "name": "Ralph Lauren Corporation",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "RMD",
+    "name": "ResMed",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "ROK",
+    "name": "Rockwell Automation",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "ROL",
+    "name": "Rollins, Inc.",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "ROP",
+    "name": "Roper Technologies",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "ROST",
+    "name": "Ross Stores",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "RSG",
+    "name": "Republic Services",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "RTX",
+    "name": "RTX Corporation",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "RVTY",
+    "name": "Revvity",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "SBAC",
+    "name": "SBA Communications",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "SBUX",
+    "name": "Starbucks",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "SCHW",
+    "name": "Charles Schwab Corporation",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "SHW",
+    "name": "Sherwin-Williams",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "SJM",
+    "name": "J.M. Smucker Company (The)",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "SLB",
+    "name": "Schlumberger",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "SMCI",
+    "name": "Supermicro",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "SNA",
+    "name": "Snap-on",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "SNDK",
+    "name": "Sandisk",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "SNPS",
+    "name": "Synopsys",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "SO",
+    "name": "Southern Company",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "SOLV",
+    "name": "Solventum",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "SPG",
+    "name": "Simon Property Group",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "SPGI",
+    "name": "S&P Global",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "SRE",
+    "name": "Sempra",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "STE",
+    "name": "Steris",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "STLD",
+    "name": "Steel Dynamics",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "STT",
+    "name": "State Street Corporation",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "STX",
+    "name": "Seagate Technology",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "STZ",
+    "name": "Constellation Brands",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "SW",
+    "name": "Smurfit Westrock",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "SWK",
+    "name": "Stanley Black & Decker",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "SWKS",
+    "name": "Skyworks Solutions",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "SYF",
+    "name": "Synchrony Financial",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "SYK",
+    "name": "Stryker Corporation",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "SYY",
+    "name": "Sysco",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "T",
+    "name": "AT&T",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "TAP",
+    "name": "Molson Coors Beverage Company",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "TDG",
+    "name": "TransDigm Group",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "TDY",
+    "name": "Teledyne Technologies",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "TECH",
+    "name": "Bio-Techne",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "TEL",
+    "name": "TE Connectivity",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "TER",
+    "name": "Teradyne",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "TFC",
+    "name": "Truist Financial",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "TGT",
+    "name": "Target Corporation",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "TJX",
+    "name": "TJX Companies",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "TKO",
+    "name": "TKO Group Holdings",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "TMO",
+    "name": "Thermo Fisher Scientific",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "TMUS",
+    "name": "T-Mobile US",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "TPL",
+    "name": "Texas Pacific Land Corporation",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "TPR",
+    "name": "Tapestry, Inc.",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "TRGP",
+    "name": "Targa Resources",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "TRMB",
+    "name": "Trimble Inc.",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "TROW",
+    "name": "T. Rowe Price",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "TRV",
+    "name": "Travelers Companies (The)",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "TSCO",
+    "name": "Tractor Supply",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "TSLA",
+    "name": "Tesla, Inc.",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "TSN",
+    "name": "Tyson Foods",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "TT",
+    "name": "Trane Technologies",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "TTD",
+    "name": "Trade Desk (The)",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "TTWO",
+    "name": "Take-Two Interactive",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "TXN",
+    "name": "Texas Instruments",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "TXT",
+    "name": "Textron",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "TYL",
+    "name": "Tyler Technologies",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "UAL",
+    "name": "United Airlines Holdings",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "UBER",
+    "name": "Uber",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "UDR",
+    "name": "UDR, Inc.",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "UHS",
+    "name": "Universal Health Services",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "ULTA",
+    "name": "Ulta Beauty",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "UNH",
+    "name": "UnitedHealth Group",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "UNP",
+    "name": "Union Pacific Corporation",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "UPS",
+    "name": "United Parcel Service",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "URI",
+    "name": "United Rentals",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "USB",
+    "name": "U.S. Bancorp",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "V",
+    "name": "Visa Inc.",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "VEEV",
+    "name": "Veeva Systems",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "VICI",
+    "name": "Vici Properties",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "VLO",
+    "name": "Valero Energy",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "VLTO",
+    "name": "Veralto",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "VMC",
+    "name": "Vulcan Materials Company",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "VRSK",
+    "name": "Verisk Analytics",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "VRSN",
+    "name": "Verisign",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "VRT",
+    "name": "Vertiv",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "VRTX",
+    "name": "Vertex Pharmaceuticals",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "VST",
+    "name": "Vistra Corp.",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "VTR",
+    "name": "Ventas",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "VTRS",
+    "name": "Viatris",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "VZ",
+    "name": "Verizon",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "WAB",
+    "name": "Wabtec",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "WAT",
+    "name": "Waters Corporation",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "WBD",
+    "name": "Warner Bros. Discovery",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "WDAY",
+    "name": "Workday, Inc.",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "WDC",
+    "name": "Western Digital",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "WEC",
+    "name": "WEC Energy Group",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "WELL",
+    "name": "Welltower",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "WFC",
+    "name": "Wells Fargo",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "WM",
+    "name": "Waste Management",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "WMB",
+    "name": "Williams Companies",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "WMT",
+    "name": "Walmart",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "WRB",
+    "name": "W. R. Berkley Corporation",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "WSM",
+    "name": "Williams-Sonoma, Inc.",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "WST",
+    "name": "West Pharmaceutical Services",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "WTW",
+    "name": "Willis Towers Watson",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "WY",
+    "name": "Weyerhaeuser",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "WYNN",
+    "name": "Wynn Resorts",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "XEL",
+    "name": "Xcel Energy",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "XOM",
+    "name": "ExxonMobil",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "XYL",
+    "name": "Xylem Inc.",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "XYZ",
+    "name": "Block, Inc.",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "YUM",
+    "name": "Yum! Brands",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "ZBH",
+    "name": "Zimmer Biomet",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "ZBRA",
+    "name": "Zebra Technologies",
+    "isin": null,
+    "currency": "USD"
+  },
+  {
+    "symbol": "ZTS",
+    "name": "Zoetis",
+    "isin": null,
+    "currency": "USD"
+  }
+]

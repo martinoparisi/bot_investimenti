@@ -1,0 +1,83 @@
+@import "tailwindcss";
+
+@theme {
+  --color-base-950: #08090c;
+  --color-base-900: #0d0f14;
+  --color-base-850: #12151c;
+  --color-base-800: #171b24;
+  --color-base-700: #222735;
+  --color-base-600: #333a4d;
+  --color-base-400: #7b849c;
+  --color-base-300: #a3abbe;
+  --color-base-100: #e6e9f2;
+
+  --color-rise-500: #16c784;
+  --color-rise-600: #0f9d68;
+  --color-fall-500: #ea3943;
+  --color-fall-600: #c22a33;
+  --color-hold-500: #f0b90b;
+  --color-accent-500: #4d7cff;
+  --color-accent-400: #7597ff;
+
+  --font-sans: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  --font-mono: ui-monospace, "SF Mono", "Cascadia Mono", Menlo, monospace;
+}
+
+html {
+  color-scheme: dark;
+}
+
+body {
+  background:
+    radial-gradient(ellipse 80% 60% at 50% -10%, rgba(77, 124, 255, 0.09), transparent 60%),
+    var(--color-base-950);
+  color: var(--color-base-100);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Numeri incolonnati: rende leggibili tabelle di prezzi e percentuali. */
+.tabular {
+  font-variant-numeric: tabular-nums;
+  font-family: var(--font-mono);
+}
+
+.card {
+  background: linear-gradient(180deg, rgba(23, 27, 36, 0.9), rgba(13, 15, 20, 0.9));
+  border: 1px solid var(--color-base-700);
+  border-radius: 0.875rem;
+}
+
+.card-hover {
+  transition: border-color 0.15s ease, transform 0.15s ease;
+}
+.card-hover:hover {
+  border-color: var(--color-base-600);
+  transform: translateY(-1px);
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+::-webkit-scrollbar-track {
+  background: var(--color-base-900);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--color-base-700);
+  border-radius: 6px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color-base-600);
+}
+
+/* Scheletro di caricamento */
+@keyframes pulse-soft {
+  0%, 100% { opacity: 0.35; }
+  50% { opacity: 0.6; }
+}
+.skeleton {
+  background: var(--color-base-800);
+  animation: pulse-soft 1.6s ease-in-out infinite;
+  border-radius: 0.5rem;
+}

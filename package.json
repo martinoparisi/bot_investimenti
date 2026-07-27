@@ -1,0 +1,31 @@
+{
+  "name": "bot-investimenti",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "typecheck": "tsc --noEmit",
+    "test": "tsx --test lib/*.test.ts lib/analytics/*.test.ts",
+    "constituents": "tsx scripts/build-constituents.ts"
+  },
+  "dependencies": {
+    "@neondatabase/serverless": "^1.0.1",
+    "lightweight-charts": "^5.0.9",
+    "next": "^15.5.4",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "yahoo-finance2": "^4.0.0"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4.1.13",
+    "@types/node": "^24.5.2",
+    "@types/react": "^19.1.13",
+    "@types/react-dom": "^19.1.9",
+    "tailwindcss": "^4.1.13",
+    "tsx": "^4.20.5",
+    "typescript": "^5.9.2"
+  }
+}

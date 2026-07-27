@@ -1,0 +1,12 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "crons": [
+    { "path": "/api/cron/refresh?index=ftse-mib&period=1m", "schedule": "0 5 * * *" },
+    { "path": "/api/cron/refresh?index=ftse-100&period=1m", "schedule": "5 5 * * *" },
+    { "path": "/api/cron/refresh?index=nasdaq-100&period=1m", "schedule": "10 5 * * *" },
+    { "path": "/api/cron/refresh?index=sp-500&period=1m&offset=0&limit=150", "schedule": "15 5 * * *" },
+    { "path": "/api/cron/refresh?index=sp-500&period=1m&offset=150&limit=150", "schedule": "20 5 * * *" },
+    { "path": "/api/cron/refresh?index=sp-500&period=1m&offset=300&limit=150", "schedule": "25 5 * * *" },
+    { "path": "/api/cron/refresh?index=sp-500&period=1m&offset=450&limit=150", "schedule": "30 5 * * *" }
+  ]
+}

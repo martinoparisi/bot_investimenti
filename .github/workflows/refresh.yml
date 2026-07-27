@@ -1,0 +1,53 @@
+name: Aggiorna classifiche
+
+# Il piano Hobby di Vercel consente cron solo UNA volta al giorno.
+# GitHub Actions è gratuito e permette una frequenza molto più alta: qui gira
+# ogni 30 minuti negli orari in cui almeno una delle borse seguite è aperta
+# (Milano e Londra dalle 08:00 UTC, New York fino alle 21:00 UTC), da lunedì a
+# venerdì. Vercel resta configurato come rete di sicurezza giornaliera.
+
+on:
+  schedule:
+    - cron: "*/30 7-22 * * 1-5"
+  workflow_dispatch:
+    inputs:
+      period:
+        description: "Periodo da ricalcolare (1d, 1w, 1m, 3m, 6m, ytd, 1y, 3y, 5y, max)"
+        required: false
+        default: "1m"
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - name: Ricalcola gli snapshot
+        env:
+          APP_URL: ${{ secrets.APP_URL }}
+          CRON_SECRET: ${{ secrets.CRON_SECRET }}
+          PERIOD: ${{ github.event.inputs.period || '1m' }}
+        run: |
+          set -euo pipefail
+
+          if [ -z "${APP_URL:-}" ] || [ -z "${CRON_SECRET:-}" ]; then
+            echo "Mancano i secret APP_URL o CRON_SECRET nelle impostazioni del repository."
+            exit 1
+          fi
+
+          for index in ftse-mib ftse-100 nasdaq-100 sp-500; do
+            offset=0
+            while [ "$offset" != "null" ]; do
+              url="${APP_URL}/api/cron/refresh?index=${index}&period=${PERIOD}&offset=${offset}&limit=150"
+              echo "→ ${index} offset=${offset}"
+
+              response=$(curl -sS --max-time 120 \
+                -H "Authorization: Bearer ${CRON_SECRET}" \
+                "$url") || { echo "chiamata fallita, passo all'indice successivo"; break; }
+
+              echo "$response" | head -c 400; echo
+
+              offset=$(echo "$response" | jq -r '.nextOffset // "null"')
+              # Piccola pausa: evita di saturare il limite di richieste verso Yahoo.
+              sleep 3
+            done
+          done

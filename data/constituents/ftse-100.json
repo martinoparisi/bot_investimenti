@@ -1,0 +1,602 @@
+[
+  {
+    "symbol": "AAF.L",
+    "name": "Airtel Africa",
+    "isin": null,
+    "currency": "GBp"
+  },
+  {
+    "symbol": "AAL.L",
+    "name": "Anglo American plc",
+    "isin": null,
+    "currency": "GBp"
+  },
+  {
+    "symbol": "ABDN.L",
+    "name": "Aberdeen Group",
+    "isin": null,
+    "currency": "GBp"
+  },
+  {
+    "symbol": "ABF.L",
+    "name": "Associated British Foods",
+    "isin": null,
+    "currency": "GBp"
+  },
+  {
+    "symbol": "ADM.L",
+    "name": "Admiral Group",
+    "isin": null,
+    "currency": "GBp"
+  },
+  {
+    "symbol": "ALW.L",
+    "name": "Alliance Witan",
+    "isin": null,
+    "currency": "GBp"
+  },
+  {
+    "symbol": "ANTO.L",
+    "name": "Antofagasta plc",
+    "isin": null,
+    "currency": "GBp"
+  },
+  {
+    "symbol": "AUTO.L",
+    "name": "Autotrader Group",
+    "isin": null,
+    "currency": "GBp"
+  },
+  {
+    "symbol": "AV.L",
+    "name": "Aviva",
+    "isin": null,
+    "currency": "GBp"
+  },
+  {
+    "symbol": "AZN.L",
+    "name": "AstraZeneca",
+    "isin": null,
+    "currency": "GBp"
+  },
+  {
+    "symbol": "BA.L",
+    "name": "BAE Systems",
+    "isin": null,
+    "currency": "GBp"
+  },
+  {
+    "symbol": "BAB.L",
+    "name": "Babcock International",
+    "isin": null,
+    "currency": "GBp"
+  },
+  {
+    "symbol": "BARC.L",
+    "name": "Barclays",
+    "isin": null,
+    "currency": "GBp"
+  },
+  {
+    "symbol": "BATS.L",
+    "name": "British American Tobacco",
+    "isin": null,
+    "currency": "GBp"
+  },
+  {
+    "symbol": "BBOX.L",
+    "name": "Tritax Big Box REIT",
+    "isin": null,
+    "currency": "GBp"
+  },
+  {
+    "symbol": "BEZ.L",
+    "name": "Beazley",
+    "isin": null,
+    "currency": "GBp"
+  },
+  {
+    "symbol": "BGEO.L",
+    "name": "Lion Finance Group",
+    "isin": null,
+    "currency": "GBp"
+  },
+  {
+    "symbol": "BLND.L",
+    "name": "British Land",
+    "isin": null,
+    "currency": "GBp"
+  },
+  {
+    "symbol": "BNZL.L",
+    "name": "Bunzl",
+    "isin": null,
+    "currency": "GBp"
+  },
+  {
+    "symbol": "BP.L",
+    "name": "BP",
+    "isin": null,
+    "currency": "GBp"
+  },
+  {
+    "symbol": "BRBY.L",
+    "name": "Burberry Group",
+    "isin": null,
+    "currency": "GBp"
+  },
+  {
+    "symbol": "BT-A.L",
+    "name": "BT Group",
+    "isin": null,
+    "currency": "GBp"
+  },
+  {
+    "symbol": "BTRW.L",
+    "name": "Barratt Redrow",
+    "isin": null,
+    "currency": "GBp"
+  },
+  {
+    "symbol": "CCC.L",
+    "name": "Computacenter",
+    "isin": null,
+    "currency": "GBp"
+  },
+  {
+    "symbol": "CCEP.L",
+    "name": "Coca-Cola Europacific Partners",
+    "isin": null,
+    "currency": "GBp"
+  },
+  {
+    "symbol": "CCH.L",
+    "name": "Coca-Cola HBC",
+    "isin": null,
+    "currency": "GBp"
+  },
+  {
+    "symbol": "CNA.L",
+    "name": "Centrica",
+    "isin": null,
+    "currency": "GBp"
+  },
+  {
+    "symbol": "CPG.L",
+    "name": "Compass Group",
+    "isin": null,
+    "currency": "GBp"
+  },
+  {
+    "symbol": "CRDA.L",
+    "name": "Croda International",
+    "isin": null,
+    "currency": "GBp"
+  },
+  {
+    "symbol": "CTEC.L",
+    "name": "Convatec",
+    "isin": null,
+    "currency": "GBp"
+  },
+  {
+    "symbol": "DCC.L",
+    "name": "DCC Energy",
+    "isin": null,
+    "currency": "GBp"
+  },
+  {
+    "symbol": "DGE.L",
+    "name": "Diageo",
+    "isin": null,
+    "currency": "GBp"
+  },
+  {
+    "symbol": "DPLM.L",
+    "name": "Diploma",
+    "isin": null,
+    "currency": "GBp"
+  },
+  {
+    "symbol": "EDV.L",
+    "name": "Endeavour Mining",
+    "isin": null,
+    "currency": "GBp"
+  },
+  {
+    "symbol": "ENT.L",
+    "name": "Entain",
+    "isin": null,
+    "currency": "GBp"
+  },
+  {
+    "symbol": "EXPN.L",
+    "name": "Experian",
+    "isin": null,
+    "currency": "GBp"
+  },
+  {
+    "symbol": "FCIT.L",
+    "name": "F & C Investment Trust",
+    "isin": null,
+    "currency": "GBp"
+  },
+  {
+    "symbol": "FRES.L",
+    "name": "Fresnillo plc",
+    "isin": null,
+    "currency": "GBp"
+  },
+  {
+    "symbol": "GAW.L",
+    "name": "Games Workshop",
+    "isin": null,
+    "currency": "GBp"
+  },
+  {
+    "symbol": "GLEN.L",
+    "name": "Glencore",
+    "isin": null,
+    "currency": "GBp"
+  },
+  {
+    "symbol": "GSK.L",
+    "name": "GSK plc",
+    "isin": null,
+    "currency": "GBp"
+  },
+  {
+    "symbol": "HLMA.L",
+    "name": "Halma plc",
+    "isin": null,
+    "currency": "GBp"
+  },
+  {
+    "symbol": "HLN.L",
+    "name": "Haleon",
+    "isin": null,
+    "currency": "GBp"
+  },
+  {
+    "symbol": "HSBA.L",
+    "name": "HSBC",
+    "isin": null,
+    "currency": "GBp"
+  },
+  {
+    "symbol": "HSX.L",
+    "name": "Hiscox",
+    "isin": null,
+    "currency": "GBp"
+  },
+  {
+    "symbol": "HWDN.L",
+    "name": "Howdens Joinery",
+    "isin": null,
+    "currency": "GBp"
+  },
+  {
+    "symbol": "IAG.L",
+    "name": "International Airlines Group",
+    "isin": null,
+    "currency": "GBp"
+  },
+  {
+    "symbol": "ICG.L",
+    "name": "ICG",
+    "isin": null,
+    "currency": "GBp"
+  },
+  {
+    "symbol": "IGG.L",
+    "name": "IG Group",
+    "isin": null,
+    "currency": "GBp"
+  },
+  {
+    "symbol": "IHG.L",
+    "name": "IHG Hotels & Resorts",
+    "isin": null,
+    "currency": "GBp"
+  },
+  {
+    "symbol": "III.L",
+    "name": "3i",
+    "isin": null,
+    "currency": "GBp"
+  },
+  {
+    "symbol": "IMB.L",
+    "name": "Imperial Brands",
+    "isin": null,
+    "currency": "GBp"
+  },
+  {
+    "symbol": "IMI.L",
+    "name": "IMI",
+    "isin": null,
+    "currency": "GBp"
+  },
+  {
+    "symbol": "INF.L",
+    "name": "Informa",
+    "isin": null,
+    "currency": "GBp"
+  },
+  {
+    "symbol": "INVP.L",
+    "name": "Investec",
+    "isin": null,
+    "currency": "GBp"
+  },
+  {
+    "symbol": "ITRK.L",
+    "name": "Intertek",
+    "isin": null,
+    "currency": "GBp"
+  },
+  {
+    "symbol": "JD.L",
+    "name": "JD Sports",
+    "isin": null,
+    "currency": "GBp"
+  },
+  {
+    "symbol": "KGF.L",
+    "name": "Kingfisher plc",
+    "isin": null,
+    "currency": "GBp"
+  },
+  {
+    "symbol": "LAND.L",
+    "name": "Land Securities",
+    "isin": null,
+    "currency": "GBp"
+  },
+  {
+    "symbol": "LGEN.L",
+    "name": "Legal & General",
+    "isin": null,
+    "currency": "GBp"
+  },
+  {
+    "symbol": "LLOY.L",
+    "name": "Lloyds Banking Group",
+    "isin": null,
+    "currency": "GBp"
+  },
+  {
+    "symbol": "LMP.L",
+    "name": "LondonMetric Property",
+    "isin": null,
+    "currency": "GBp"
+  },
+  {
+    "symbol": "LSEG.L",
+    "name": "London Stock Exchange Group",
+    "isin": null,
+    "currency": "GBp"
+  },
+  {
+    "symbol": "MKS.L",
+    "name": "Marks & Spencer",
+    "isin": null,
+    "currency": "GBp"
+  },
+  {
+    "symbol": "MNG.L",
+    "name": "M&G",
+    "isin": null,
+    "currency": "GBp"
+  },
+  {
+    "symbol": "MRO.L",
+    "name": "Melrose Industries",
+    "isin": null,
+    "currency": "GBp"
+  },
+  {
+    "symbol": "MTLN.L",
+    "name": "Metlen Energy & Metals",
+    "isin": null,
+    "currency": "GBp"
+  },
+  {
+    "symbol": "NG.L",
+    "name": "National Grid plc",
+    "isin": null,
+    "currency": "GBp"
+  },
+  {
+    "symbol": "NWG.L",
+    "name": "NatWest Group",
+    "isin": null,
+    "currency": "GBp"
+  },
+  {
+    "symbol": "NXT.L",
+    "name": "Next plc",
+    "isin": null,
+    "currency": "GBp"
+  },
+  {
+    "symbol": "PCT.L",
+    "name": "Polar Capital Technology Trust",
+    "isin": null,
+    "currency": "GBp"
+  },
+  {
+    "symbol": "PRU.L",
+    "name": "Prudential plc",
+    "isin": null,
+    "currency": "GBp"
+  },
+  {
+    "symbol": "PSH.L",
+    "name": "Pershing Square Holdings",
+    "isin": null,
+    "currency": "GBp"
+  },
+  {
+    "symbol": "PSN.L",
+    "name": "Persimmon",
+    "isin": null,
+    "currency": "GBp"
+  },
+  {
+    "symbol": "PSON.L",
+    "name": "Pearson plc",
+    "isin": null,
+    "currency": "GBp"
+  },
+  {
+    "symbol": "REL.L",
+    "name": "RELX",
+    "isin": null,
+    "currency": "GBp"
+  },
+  {
+    "symbol": "RIO.L",
+    "name": "Rio Tinto",
+    "isin": null,
+    "currency": "GBp"
+  },
+  {
+    "symbol": "RKT.L",
+    "name": "Reckitt",
+    "isin": null,
+    "currency": "GBp"
+  },
+  {
+    "symbol": "RR.L",
+    "name": "Rolls-Royce Holdings",
+    "isin": null,
+    "currency": "GBp"
+  },
+  {
+    "symbol": "RTO.L",
+    "name": "Rentokil Initial",
+    "isin": null,
+    "currency": "GBp"
+  },
+  {
+    "symbol": "SBRY.L",
+    "name": "Sainsbury's",
+    "isin": null,
+    "currency": "GBp"
+  },
+  {
+    "symbol": "SDLF.L",
+    "name": "Standard Life",
+    "isin": null,
+    "currency": "GBp"
+  },
+  {
+    "symbol": "SDR.L",
+    "name": "Schroders",
+    "isin": null,
+    "currency": "GBp"
+  },
+  {
+    "symbol": "SGE.L",
+    "name": "Sage Group",
+    "isin": null,
+    "currency": "GBp"
+  },
+  {
+    "symbol": "SGRO.L",
+    "name": "Segro",
+    "isin": null,
+    "currency": "GBp"
+  },
+  {
+    "symbol": "SHEL.L",
+    "name": "Shell plc",
+    "isin": null,
+    "currency": "GBp"
+  },
+  {
+    "symbol": "SMIN.L",
+    "name": "Smiths Group",
+    "isin": null,
+    "currency": "GBp"
+  },
+  {
+    "symbol": "SMT.L",
+    "name": "Scottish Mortgage Investment Trust",
+    "isin": null,
+    "currency": "GBp"
+  },
+  {
+    "symbol": "SN.L",
+    "name": "Smith & Nephew",
+    "isin": null,
+    "currency": "GBp"
+  },
+  {
+    "symbol": "SPX.L",
+    "name": "Spirax Group",
+    "isin": null,
+    "currency": "GBp"
+  },
+  {
+    "symbol": "SSE.L",
+    "name": "SSE plc",
+    "isin": null,
+    "currency": "GBp"
+  },
+  {
+    "symbol": "STAN.L",
+    "name": "Standard Chartered",
+    "isin": null,
+    "currency": "GBp"
+  },
+  {
+    "symbol": "STJ.L",
+    "name": "St. James's Place",
+    "isin": null,
+    "currency": "GBp"
+  },
+  {
+    "symbol": "SVT.L",
+    "name": "Severn Trent",
+    "isin": null,
+    "currency": "GBp"
+  },
+  {
+    "symbol": "TSCO.L",
+    "name": "Tesco",
+    "isin": null,
+    "currency": "GBp"
+  },
+  {
+    "symbol": "ULVR.L",
+    "name": "Unilever",
+    "isin": null,
+    "currency": "GBp"
+  },
+  {
+    "symbol": "UU.L",
+    "name": "United Utilities",
+    "isin": null,
+    "currency": "GBp"
+  },
+  {
+    "symbol": "VOD.L",
+    "name": "Vodafone Group",
+    "isin": null,
+    "currency": "GBp"
+  },
+  {
+    "symbol": "WEIR.L",
+    "name": "Weir Group",
+    "isin": null,
+    "currency": "GBp"
+  },
+  {
+    "symbol": "WTB.L",
+    "name": "Whitbread",
+    "isin": null,
+    "currency": "GBp"
+  }
+]

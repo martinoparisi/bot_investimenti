@@ -1,0 +1,242 @@
+[
+  {
+    "symbol": "A2A.MI",
+    "name": "A2A",
+    "isin": "IT0001233417",
+    "currency": "EUR"
+  },
+  {
+    "symbol": "AMP.MI",
+    "name": "Amplifon",
+    "isin": "IT0004056880",
+    "currency": "EUR"
+  },
+  {
+    "symbol": "AVIO.MI",
+    "name": "Avio",
+    "isin": "IT0005119810",
+    "currency": "EUR"
+  },
+  {
+    "symbol": "AZM.MI",
+    "name": "Azimut",
+    "isin": "IT0003261697",
+    "currency": "EUR"
+  },
+  {
+    "symbol": "BAMI.MI",
+    "name": "Banco BPM",
+    "isin": "IT0005218380",
+    "currency": "EUR"
+  },
+  {
+    "symbol": "BC.MI",
+    "name": "Brunello Cucinelli",
+    "isin": "IT0004764699",
+    "currency": "EUR"
+  },
+  {
+    "symbol": "BMED.MI",
+    "name": "Banca Mediolanum",
+    "isin": "IT0004776628",
+    "currency": "EUR"
+  },
+  {
+    "symbol": "BMPS.MI",
+    "name": "Banca Monte dei Paschi di Siena",
+    "isin": "IT0005508921",
+    "currency": "EUR"
+  },
+  {
+    "symbol": "BPE.MI",
+    "name": "BPER Banca",
+    "isin": "IT0000066123",
+    "currency": "EUR"
+  },
+  {
+    "symbol": "BZU.MI",
+    "name": "Buzzi",
+    "isin": "IT0001347308",
+    "currency": "EUR"
+  },
+  {
+    "symbol": "CPR.MI",
+    "name": "Campari",
+    "isin": "IT0003849244",
+    "currency": "EUR"
+  },
+  {
+    "symbol": "DIA.MI",
+    "name": "Diasorin",
+    "isin": "IT0003492391",
+    "currency": "EUR"
+  },
+  {
+    "symbol": "ENEL.MI",
+    "name": "Enel",
+    "isin": "IT0003128367",
+    "currency": "EUR"
+  },
+  {
+    "symbol": "ENI.MI",
+    "name": "Eni",
+    "isin": "IT0003132476",
+    "currency": "EUR"
+  },
+  {
+    "symbol": "FBK.MI",
+    "name": "FinecoBank",
+    "isin": "IT0000072170",
+    "currency": "EUR"
+  },
+  {
+    "symbol": "FCT.MI",
+    "name": "Fincantieri",
+    "isin": "IT0005599938",
+    "currency": "EUR"
+  },
+  {
+    "symbol": "G.MI",
+    "name": "Generali",
+    "isin": "IT0000062072",
+    "currency": "EUR"
+  },
+  {
+    "symbol": "HER.MI",
+    "name": "Hera",
+    "isin": "IT0001250932",
+    "currency": "EUR"
+  },
+  {
+    "symbol": "IG.MI",
+    "name": "Italgas",
+    "isin": "IT0005211237",
+    "currency": "EUR"
+  },
+  {
+    "symbol": "INW.MI",
+    "name": "INWIT",
+    "isin": "IT0005090300",
+    "currency": "EUR"
+  },
+  {
+    "symbol": "ISP.MI",
+    "name": "Intesa Sanpaolo",
+    "isin": "IT0000072618",
+    "currency": "EUR"
+  },
+  {
+    "symbol": "IVG.MI",
+    "name": "Iveco",
+    "isin": "NL0015000LU4",
+    "currency": "EUR"
+  },
+  {
+    "symbol": "LDO.MI",
+    "name": "Leonardo",
+    "isin": "IT0003856405",
+    "currency": "EUR"
+  },
+  {
+    "symbol": "LTMC.MI",
+    "name": "Lottomatica Group",
+    "isin": "IT0005541336",
+    "currency": "EUR"
+  },
+  {
+    "symbol": "MB.MI",
+    "name": "Mediobanca",
+    "isin": "IT0000062957",
+    "currency": "EUR"
+  },
+  {
+    "symbol": "MONC.MI",
+    "name": "Moncler",
+    "isin": "IT0004965148",
+    "currency": "EUR"
+  },
+  {
+    "symbol": "NEXI.MI",
+    "name": "Nexi",
+    "isin": "IT0005366767",
+    "currency": "EUR"
+  },
+  {
+    "symbol": "PRY.MI",
+    "name": "Prysmian",
+    "isin": "IT0004176001",
+    "currency": "EUR"
+  },
+  {
+    "symbol": "PST.MI",
+    "name": "Poste italiane",
+    "isin": "IT0003796171",
+    "currency": "EUR"
+  },
+  {
+    "symbol": "RACE.MI",
+    "name": "Ferrari",
+    "isin": "NL0011509302",
+    "currency": "EUR"
+  },
+  {
+    "symbol": "REC.MI",
+    "name": "Recordati",
+    "isin": "IT0003828271",
+    "currency": "EUR"
+  },
+  {
+    "symbol": "SPM.MI",
+    "name": "Saipem",
+    "isin": "IT0000068525",
+    "currency": "EUR"
+  },
+  {
+    "symbol": "SRG.MI",
+    "name": "Snam",
+    "isin": "IT0003153415",
+    "currency": "EUR"
+  },
+  {
+    "symbol": "STLAM.MI",
+    "name": "Stellantis",
+    "isin": "NL00150001Q9",
+    "currency": "EUR"
+  },
+  {
+    "symbol": "STMMI.MI",
+    "name": "STMicroelectronics",
+    "isin": "NL0000226223",
+    "currency": "EUR"
+  },
+  {
+    "symbol": "TEN.MI",
+    "name": "Tenaris",
+    "isin": "LU0156801721",
+    "currency": "EUR"
+  },
+  {
+    "symbol": "TIT.MI",
+    "name": "Telecom Italia",
+    "isin": "IT0003497168",
+    "currency": "EUR"
+  },
+  {
+    "symbol": "TRN.MI",
+    "name": "Terna",
+    "isin": "IT0003242622",
+    "currency": "EUR"
+  },
+  {
+    "symbol": "UCG.MI",
+    "name": "UniCredit",
+    "isin": "IT0004781412",
+    "currency": "EUR"
+  },
+  {
+    "symbol": "UNI.MI",
+    "name": "Unipol",
+    "isin": "IT0004810054",
+    "currency": "EUR"
+  }
+]
